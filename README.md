@@ -1,3 +1,5 @@
+[![Runme](https://runme.io/static/button.svg)](https://runme.io/run?app_id=d1dbe65b-6e0f-471f-adf9-d9acde879660)
+
 # tgfilestream
 A Telegram bot that can stream Telegram files to users over HTTP.
 
