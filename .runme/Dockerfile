@@ -1,4 +1,4 @@
 FROM python:latest
 WORKDIR /app
 COPY . .
-ENTRYPOINT python3 -m tgfilestream
+ENTRYPOINT pip install -r requirements.txt && python3 -m tgfilestream
