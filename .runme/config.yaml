@@ -1,0 +1,15 @@
+version: 1.0
+publish: app
+services:
+  app:
+    environment:
+      BOT_TOKEN: 787199360:AAHHLlhkQCLTZt8i1XyoLZy-0hvQetw7nUw
+      HOST: 0.0.0.0
+      TG_API_HASH: 6aede86c606cf707a628a439e8499545
+      TG_API_ID: "493284"
+    build:
+      type: dockerfile
+      config: ./.runme/Dockerfile
+    ports:
+      - container: 8080
+        public: 80
